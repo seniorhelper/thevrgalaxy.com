@@ -1,4 +1,5 @@
 /* theVRgalaxy — styles. Huge type, glass panels, neon edges. No flashing: only slow drift and fades. */
+[hidden]{display:none!important}
 :root{--ink:#e8f1ff;--dim:#9fb3cc;--blue:#2ea8ff;--cyan:#38f0ff;--pink:#ff4fd8;--gold:#ffd23f;--deep:#0b5fd6;--glass:rgba(3,9,22,.8);--line:rgba(46,168,255,.34);--f:"Exo 2",system-ui,-apple-system,"Segoe UI",sans-serif}
 *{box-sizing:border-box}
 html,body{margin:0;height:100%;background:#000;color:var(--ink);font-family:var(--f);-webkit-font-smoothing:antialiased}

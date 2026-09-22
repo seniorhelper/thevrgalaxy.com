@@ -1,0 +1,40 @@
+# theVRgalaxy
+
+> theVRgalaxy (https://thevrgalaxy.com) is a free 3D and virtual reality adventure game that runs in a web browser. Players explore 15 alien worlds, fly a jetpack, ride a space roller coaster, free jammed aliens with non-violent Harmony pulses, and search for three hidden worlds. It plays on desktop, phone, tablet and WebXR headsets such as the Meta Quest (through the Meta Quest Browser). No download, no account.
+
+## Key facts
+
+- Price: free, runs in the browser, nothing to install.
+- Platforms: desktop and laptop browsers, phones and tablets, and VR headsets through WebXR (tap Enter VR).
+- Worlds: 15 total. 2 open at the start, 10 unlock with Harmony Shards, 3 hidden and found only through play and clues.
+- Story: The Harmony Run. The Static jammed the galaxy's song; the player frees worlds and learns there was never anything to fight for.
+- Weapons fire Harmony pulses: robot drones pop, aliens are freed and become friends. No blood or gore.
+- Guide: Orbi, a friendly chatbot that explains controls, tells jokes, projects holograms and gives clues.
+- Characters: four astronauts plus three human explorers who can wear the player's own selfie.
+- Progress saves automatically in the browser.
+
+## Pages
+
+- [Play theVRgalaxy](https://thevrgalaxy.com/): the 3D galaxy hub, with the game guide and FAQ.
+- [The worlds](https://thevrgalaxy.com/worlds/): every discoverable world, its mission and how it unlocks.
+
+## Worlds anyone can find
+
+- Lumora (open from the start): A jungle that glows brighter when you laugh. Direct link: https://thevrgalaxy.com/?world=lumora
+- Gloopa (open from the start): Bouncy, gooey, and a little bit sticky. Direct link: https://thevrgalaxy.com/?world=gloopa
+- Vertigo Peaks (unlocks at 1 Harmony Shard): Mountains so tall they scrape the stars. Direct link: https://thevrgalaxy.com/?world=vertigo-peaks
+- Neon Rift (unlocks at 2 Harmony Shards): A city that never sleeps and never stops glowing. Direct link: https://thevrgalaxy.com/?world=neon-rift
+- Coaster Nebula (unlocks at 3 Harmony Shards): The galaxy’s wildest ride, loops included. Direct link: https://thevrgalaxy.com/?world=coaster-nebula
+- Crystalis (unlocks at 4 Harmony Shards): Crystal caves that sing when you touch them. Direct link: https://thevrgalaxy.com/?world=crystalis
+- Magmara (unlocks at 5 Harmony Shards): Lava rivers, fire trees, and a very hot temper. Direct link: https://thevrgalaxy.com/?world=magmara
+- Aquara (unlocks at 6 Harmony Shards): An ocean world where islands float on songs. Direct link: https://thevrgalaxy.com/?world=aquara
+- Mechanica (unlocks at 7 Harmony Shards): A robot factory that forgot what it was building. Direct link: https://thevrgalaxy.com/?world=mechanica
+- Sporeveil (unlocks at 8 Harmony Shards): Giant mushrooms, glowing spores, sleepy giants. Direct link: https://thevrgalaxy.com/?world=sporeveil
+- Cloudrift (unlocks at 9 Harmony Shards): Islands of candy-colored sky. Direct link: https://thevrgalaxy.com/?world=cloudrift
+- Dunestar (unlocks at 10 Harmony Shards): Twin suns, singing dunes, and a buried secret. Direct link: https://thevrgalaxy.com/?world=dunestar
+
+## Controls
+
+- Computer: WASD move, drag to spin the camera 360 degrees, scroll to zoom, Space to jump (hold for jetpack), click or F to fire, E to talk, Q to swap, H to holster.
+- Touch: thumb joystick to move, drag to spin, pinch to zoom, on-screen buttons for fire, jump, talk and swap.
+- VR: left stick moves, right stick snap-turns, trigger fires, grip is the jetpack.

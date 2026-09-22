@@ -1,0 +1,15 @@
+{
+  "name": "theVRgalaxy",
+  "short_name": "VR Galaxy",
+  "description": "A free VR game in your browser: 15 alien worlds, jetpacks, a space roller coaster and aliens to befriend.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#000000",
+  "theme_color": "#05030f",
+  "icons": [
+    { "src": "/images/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/images/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

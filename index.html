@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>theVRgalaxy · Free VR Game in Your Browser</title><meta name="description" content="Free browser VR game: explore 15 huge alien worlds, fly a jetpack, ride a space roller coaster and befriend aliens. Plays on desktop, phone and Meta Quest. No download."><link rel="canonical" href="https://thevrgalaxy.com/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website"><meta property="og:site_name" content="theVRgalaxy"><meta property="og:title" content="theVRgalaxy · Free VR Game in Your Browser"><meta property="og:description" content="Free browser VR game: explore 15 huge alien worlds, fly a jetpack, ride a space roller coaster and befriend aliens. Plays on desktop, phone and Meta Quest. No download."><meta property="og:url" content="https://thevrgalaxy.com/"><meta property="og:image" content="https://thevrgalaxy.com/images/og-image.jpg"><meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="theVRgalaxy · Free VR Game in Your Browser"><meta name="twitter:description" content="Free browser VR game: explore 15 huge alien worlds, fly a jetpack, ride a space roller coaster and befriend aliens. Plays on desktop, phone and Meta Quest. No download."><meta name="twitter:image" content="https://thevrgalaxy.com/images/og-image.jpg">
+<link rel="icon" href="/images/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#05030f">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/tvg.css">
+<script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js",
+               "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/" } }
+</script>
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js">
+<link rel="modulepreload" href="/js/tvg-app.js">
+<link rel="preload" as="image" href="/images/sky-4096.webp" fetchpriority="high">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://thevrgalaxy.com/#website",
+   "url": "https://thevrgalaxy.com/",
+   "name": "theVRgalaxy",
+   "inLanguage": "en-US",
+   "description": "Free browser VR game: explore 15 huge alien worlds, fly a jetpack, ride a space roller coaster and befriend aliens. Plays on desktop, phone and Meta Quest. No download."
+  },
+  {
+   "@type": "VideoGame",
+   "@id": "https://thevrgalaxy.com/#game",
+   "name": "theVRgalaxy: The Harmony Run",
+   "url": "https://thevrgalaxy.com/",
+   "image": "https://thevrgalaxy.com/images/og-image.jpg",
+   "description": "A free 3D and VR adventure game that runs in the web browser. Explore 15 alien worlds, collect Harmony Shards, free jammed aliens with Harmony pulses and find three hidden worlds by following clues.",
+   "genre": [
+    "Adventure",
+    "Action",
+    "Exploration",
+    "Shooter"
+   ],
+   "gamePlatform": [
+    "Web browser",
+    "Meta Quest Browser",
+    "Desktop",
+    "Mobile"
+   ],
+   "applicationCategory": "Game",
+   "operatingSystem": "Any (web browser with WebGL)",
+   "playMode": "SinglePlayer",
+   "numberOfPlayers": {
+    "@type": "QuantitativeValue",
+    "value": 1
+   },
+   "inLanguage": "en-US",
+   "isAccessibleForFree": true,
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+   },
+   "keywords": "VR games, free VR games, browser VR game, WebXR game, Meta Quest browser games, VR space game, online VR game no download"
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://thevrgalaxy.com/#webpage",
+   "url": "https://thevrgalaxy.com/",
+   "name": "theVRgalaxy · Free VR Game in Your Browser",
+   "description": "Free browser VR game: explore 15 huge alien worlds, fly a jetpack, ride a space roller coaster and befriend aliens. Plays on desktop, phone and Meta Quest. No download.",
+   "isPartOf": {
+    "@id": "https://thevrgalaxy.com/#website"
+   },
+   "about": {
+    "@id": "https://thevrgalaxy.com/#game"
+   },
+   "inLanguage": "en-US",
+   "primaryImageOfPage": "https://thevrgalaxy.com/images/og-image.jpg",
+   "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+     "#guide h1",
+     "#guide .lede"
+    ]
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://thevrgalaxy.com/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Is theVRgalaxy free to play?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. theVRgalaxy is a free VR game that runs in your web browser. There is nothing to download or install and no account to create."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do I need a VR headset to play?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. The game runs in 3D on a desktop, laptop, phone or tablet. If you have a headset, open the site in its browser and tap Enter VR to play in full virtual reality through WebXR."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I play on a Meta Quest?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Open thevrgalaxy.com in the Meta Quest Browser and tap Enter VR. The left stick moves, the right stick turns, the trigger fires and the grip button fires your jetpack."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How many worlds are in theVRgalaxy?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There are 15 worlds. Two are open from the start, ten unlock as you earn Harmony Shards, and three are hidden. The hidden worlds are only found by playing, collecting Star Glyphs and following clues."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is the game violent?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No blood and no gore. Your weapons fire Harmony pulses that free jammed aliens and turn them into friends. Only robot Static drones pop apart, and the story ends with everyone getting along."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does the game save my progress?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Your shards, glyphs, friends, weapons and character are saved automatically in your browser on the device you play on."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div id="stage"></div>
+<div id="ui"></div>
+<div id="err" role="alert" hidden></div>
+<div id="nogl" hidden><div><h1>theVRgalaxy</h1><p>This galaxy needs WebGL, and this browser has it switched off. Try Chrome, Edge, Safari, Firefox or the Meta Quest Browser.</p><p><a href="/worlds/" style="color:#38f0ff">Read about the 15 worlds</a></p></div></div>
+<section id="guide" hidden aria-labelledby="gd-h1">
+<button type="button" class="guide-x" aria-label="Close the guide">&#x2715;</button>
+<article class="gd">
+<h1 id="gd-h1">A free VR game you play right in your browser</h1>
+<p class="lede">theVRgalaxy is a free 3D and virtual reality adventure. Explore 15 huge alien worlds, fly a jetpack, ride a space roller coaster, and turn jammed aliens into friends. No download, no account, no headset required.</p>
+<p class="play"><a class="btn big" href="/">Play now</a> <a class="btn" href="/worlds/">See the worlds</a></p>
+<h2>The story: The Harmony Run</h2>
+<p>All fifteen worlds of this galaxy once sang one song of light called the Harmony. Then a crackling cloud called the Static crept out of the galactic core and jammed it. Aliens who were friends now hear threats in every word. You are a Wayfinder. Your blaster fires Harmony pulses that shake the Static loose. Free the worlds, earn the Harmony Shards, and find out where the Static really comes from.</p>
+<h2>How to play</h2>
+<h3>On a computer</h3>
+<p>Drag to spin the camera all the way around and scroll to zoom. W, A, S and D move. Space jumps, and holding Space in the air fires your jetpack. Click or press F to fire, E to talk, Q to swap weapons and H to holster your blaster.</p>
+<h3>On a phone or tablet</h3>
+<p>Drag to spin, pinch to zoom, and use the thumb joystick to move. The big buttons fire, jump, jet, talk and swap weapons.</p>
+<h3>In a VR headset</h3>
+<p>Open thevrgalaxy.com in your headset browser, such as the Meta Quest Browser, and tap Enter VR. The left stick moves, the right stick turns, the trigger fires and the grip is your jetpack.</p>
+<h2>The worlds</h2>
+<p>Two worlds are open from the start and ten more unlock as you earn Harmony Shards. Three more are hidden, and the only way to find them is to play, collect Star Glyphs and follow the clues.</p>
+<ul class="wgrid"><li><b><a href="/worlds/#lumora">Lumora</a></b>A jungle that glows brighter when you laugh. <em>Open from the start.</em></li><li><b><a href="/worlds/#gloopa">Gloopa</a></b>Bouncy, gooey, and a little bit sticky. <em>Open from the start.</em></li><li><b><a href="/worlds/#vertigo-peaks">Vertigo Peaks</a></b>Mountains so tall they scrape the stars. <em>Unlocks at 1 Harmony Shard.</em></li><li><b><a href="/worlds/#neon-rift">Neon Rift</a></b>A city that never sleeps and never stops glowing. <em>Unlocks at 2 Harmony Shards.</em></li><li><b><a href="/worlds/#coaster-nebula">Coaster Nebula</a></b>The galaxy’s wildest ride, loops included. <em>Unlocks at 3 Harmony Shards.</em></li><li><b><a href="/worlds/#crystalis">Crystalis</a></b>Crystal caves that sing when you touch them. <em>Unlocks at 4 Harmony Shards.</em></li><li><b><a href="/worlds/#magmara">Magmara</a></b>Lava rivers, fire trees, and a very hot temper. <em>Unlocks at 5 Harmony Shards.</em></li><li><b><a href="/worlds/#aquara">Aquara</a></b>An ocean world where islands float on songs. <em>Unlocks at 6 Harmony Shards.</em></li><li><b><a href="/worlds/#mechanica">Mechanica</a></b>A robot factory that forgot what it was building. <em>Unlocks at 7 Harmony Shards.</em></li><li><b><a href="/worlds/#sporeveil">Sporeveil</a></b>Giant mushrooms, glowing spores, sleepy giants. <em>Unlocks at 8 Harmony Shards.</em></li><li><b><a href="/worlds/#cloudrift">Cloudrift</a></b>Islands of candy-colored sky. <em>Unlocks at 9 Harmony Shards.</em></li><li><b><a href="/worlds/#dunestar">Dunestar</a></b>Twin suns, singing dunes, and a buried secret. <em>Unlocks at 10 Harmony Shards.</em></li></ul>
+<h2>Weapons, friends and Orbi</h2>
+<p>Every weapon fires Harmony, not harm: the Tuner Blaster, Slime Launcher, Ring Cannon, Prism Beam and Gravity Orb. Robot drones pop apart, while jammed aliens get freed and become friends who share secrets. Orbi, your floating guide bot, explains the controls, tells jokes, projects holograms and drops careful clues. Pick an astronaut, or upload a selfie and wear your own face on your explorer.</p>
+<h2>Questions</h2>
+<details><summary>Is theVRgalaxy free to play?</summary><p>Yes. theVRgalaxy is a free VR game that runs in your web browser. There is nothing to download or install and no account to create.</p></details>
+<details><summary>Do I need a VR headset to play?</summary><p>No. The game runs in 3D on a desktop, laptop, phone or tablet. If you have a headset, open the site in its browser and tap Enter VR to play in full virtual reality through WebXR.</p></details>
+<details><summary>How do I play on a Meta Quest?</summary><p>Open thevrgalaxy.com in the Meta Quest Browser and tap Enter VR. The left stick moves, the right stick turns, the trigger fires and the grip button fires your jetpack.</p></details>
+<details><summary>How many worlds are in theVRgalaxy?</summary><p>There are 15 worlds. Two are open from the start, ten unlock as you earn Harmony Shards, and three are hidden. The hidden worlds are only found by playing, collecting Star Glyphs and following clues.</p></details>
+<details><summary>Is the game violent?</summary><p>No blood and no gore. Your weapons fire Harmony pulses that free jammed aliens and turn them into friends. Only robot Static drones pop apart, and the story ends with everyone getting along.</p></details>
+<details><summary>Does the game save my progress?</summary><p>Yes. Your shards, glyphs, friends, weapons and character are saved automatically in your browser on the device you play on.</p></details>
+</article>
+</section>
+<noscript><div class="gd"><h1>theVRgalaxy</h1><p>This free browser VR game needs JavaScript turned on. <a href="/worlds/">Read about the worlds</a>.</p></div></noscript>
+<script type="module">import { start } from '/js/tvg-app.js'; start();</script>
+</body>
+</html>
